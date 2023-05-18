@@ -1,0 +1,131 @@
+/* -----------------------------------------------------*/
+.container__nav_shopList {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+/* ------------------------navbar---------------------- */
+.container__navbar {
+  width: 15vw;
+  font-style: italic;
+
+  margin-bottom: 5rem;
+}
+.container__navbar h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.content__navbar h4 {
+  background-color: #000;
+  color: #dee2e6;
+  padding: 0.6rem 2rem;
+  margin-bottom: 0.5rem;
+}
+.content__navbar a {
+  display: block;
+  padding: 0 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #868e96;
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+.content__navbar a:hover,
+.content__navbar a.active {
+  color: #ff922b;
+}
+.content__navbar_header {
+  background-color: #e9ecef;
+  font-weight: 500;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+/* ------------------------shop list---------------------- */
+.container__shop_list {
+  position: relative;
+}
+.form__search_shop {
+  display: flex;
+  justify-content: space-between;
+
+  height: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+.form__search_shop input {
+  font-size: 1rem;
+  width: 16rem;
+  outline: none;
+  padding-left: 0.2rem;
+}
+.form__search_shop select {
+  padding-right: 2rem;
+  outline: none;
+}
+.content__shop_product {
+  width: 60rem;
+  display: grid;
+  row-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 10rem;
+}
+.shop_product {
+  width: 10rem;
+}
+.shop_product img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.shop_product img:hover {
+  opacity: 0.5;
+}
+.shop_product_text {
+  text-align: center;
+  font-style: italic;
+}
+.shop_product_text p:first-child {
+  font-weight: 500;
+  margin: 0.5rem;
+}
+
+.shop_product_text p:last-child {
+  color: #868e96;
+  margin: 0;
+}
+.shop__noProduct {
+  text-align: center;
+  color: #868e96;
+  font-size: 2rem;
+}
+
+.container__shop_paging {
+  position: absolute;
+  right: 0;
+  bottom: 2rem;
+}
+.container__shop_paging > p {
+  text-align: center;
+  font-style: italic;
+  color: #868e96;
+}
+.change__paging {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.change__paging p {
+  padding: 0.3rem 1rem;
+  background-color: black;
+  color: #fff;
+  margin: 0;
+}
+.change__paging span {
+  border: 1px solid black;
+  padding: 0.2rem 0.6rem;
+  margin: 0 1rem;
+
+  cursor: pointer;
+}

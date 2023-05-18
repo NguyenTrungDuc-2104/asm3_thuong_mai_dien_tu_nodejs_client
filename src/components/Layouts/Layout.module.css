@@ -1,0 +1,107 @@
+/*---------------------------layout--------------------------- */
+.container__layout {
+  width: 1200px;
+  margin: 0 auto;
+  font-style: italic;
+}
+/*---------------------------navbar--------------------------- */
+.container__nav {
+  margin-bottom: 3rem;
+  padding: 1rem 0;
+}
+.list__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content__nav {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.3rem;
+  align-items: center;
+}
+.content__nav > li {
+  list-style: none;
+}
+.content__nav a {
+  text-decoration: none;
+  color: #333;
+}
+.content__nav a:hover,
+.content__nav a.active {
+  color: #fab005;
+}
+.content__nav_login,
+.content__nav_cart {
+  display: flex;
+  gap: 0.5rem;
+}
+.content__nav_user {
+  display: flex;
+  gap: 0.2rem;
+  cursor: pointer;
+}
+.content__nav_user:hover {
+  color: #fab005;
+}
+
+/*---------------------------footer--------------------------- */
+.container__footer {
+  background-color: #333;
+  padding: 3rem 0 5rem 0;
+  font-style: italic;
+}
+.content__footer {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 15rem;
+}
+.content__footer > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.content__footer p {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+.container__footer a {
+  color: #868e96;
+  text-decoration: none;
+}
+.container__footer a:hover {
+  color: #fff;
+}
+/* ---------------------------live chat--------------------------- */
+.icon__message {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  bottom: 3rem;
+  margin-bottom: 3rem;
+  margin-right: 3rem;
+
+  font-size: 2.5rem;
+  color: #1c7ed6;
+  z-index: 100;
+}
+.icon__message *:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.backdrop__color {
+  background: none !important;
+}
+.modal__live_chat {
+  position: fixed;
+  right: 3rem;
+  bottom: 10rem;
+  width: 28rem;
+  height: 32rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 0 8px 5px #a1a1a134;
+}

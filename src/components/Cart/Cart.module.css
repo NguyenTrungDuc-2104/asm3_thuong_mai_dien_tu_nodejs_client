@@ -1,0 +1,156 @@
+.container__cart > h1 {
+  margin-bottom: 1rem;
+}
+.content__cart {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+/* ----------------------------------table-------------------------- */
+.table {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+.thead {
+  background-color: #f8f9fa;
+}
+.thead th {
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+
+.tr__table {
+  font-size: 1.1rem;
+}
+.tr__table td {
+  width: 5rem;
+}
+.img {
+  width: 100%;
+  margin-top: 2rem;
+}
+.name {
+  font-weight: 500;
+  padding: 0 0.5rem;
+}
+
+.quantity > div {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.quantity p {
+  text-align: center;
+  padding: 0 0.5rem;
+}
+.icon__quantity {
+  cursor: pointer;
+}
+.icon__quantity:hover {
+  opacity: 0.5;
+}
+.total_product p,
+.price p {
+  margin: 0;
+  color: #868e96;
+}
+.remove {
+  cursor: pointer;
+  font-size: 2rem;
+}
+.remove:hover {
+  opacity: 0.6;
+}
+/* -----------------------cart total----------------------- */
+.container__cart_total {
+  background-color: #f8f9fa;
+  padding: 3rem;
+  font-size: 1.2rem;
+}
+.container__cart_total > p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.sub__total,
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+.sub__total {
+  border-bottom: 2px solid #ced4da;
+  margin-bottom: 0.5rem;
+}
+.total {
+  margin-bottom: 1rem;
+}
+.sub__total p:last-child {
+  color: #adb5bd;
+}
+.total p:last-child {
+  font-size: 1.4rem;
+}
+.input {
+  border-radius: 0;
+  font-size: 1.2rem;
+  padding: 0.2rem;
+  border: 1px #adb5bd solid;
+  margin-bottom: 0.5rem;
+  outline: none;
+  color: #adb5bd;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  border: none;
+  background-color: #343a40;
+  color: #e9ecef;
+
+  padding: 0.4rem 0;
+}
+.btn p {
+  margin: 0;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.disable {
+  pointer-events: none;
+}
+
+/* ----------------------cart footer------------------- */
+.cart__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  height: 6rem;
+}
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+  font-size: 1.5rem;
+  color: #495057;
+  margin: 0 1rem;
+}
+.link > p {
+  margin: 0;
+  padding: 0 0.5rem;
+}
+.link:hover {
+  color: #495057;
+  opacity: 0.5;
+}
+
+.link__boder {
+  padding: 0.5rem;
+  border: 3px solid #495057;
+}

@@ -1,0 +1,19 @@
+.contanier__banner {
+  height: 12rem;
+  margin-bottom: 3rem;
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #e9ecef;
+}
+.contanier__banner > h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #333;
+}
+.contanier__banner > p {
+  font-size: 2rem;
+  color: #495057;
+}

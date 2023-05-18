@@ -1,0 +1,38 @@
+.container__order_detail {
+  margin-bottom: 5rem;
+}
+/* -------------------------header--------------------------- */
+.order__header {
+  margin-bottom: 2rem;
+}
+.order__header > h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.content__order_header > p {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #868e96;
+}
+/* -------------------------table--------------------------- */
+.order__table {
+  width: 100%;
+  text-align: center;
+
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+}
+.table__header {
+  background-color: #e9ecef;
+  height: 3rem;
+}
+.table__body {
+  font-size: 1.1rem;
+}
+.container__img {
+  width: 8rem;
+}
+.container__img > img {
+  width: 100%;
+}
