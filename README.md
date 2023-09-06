@@ -11,3 +11,9 @@ II. Chức năng chính của project
 - Gửi gmail khi người dùng tạo đơn hàng
 - Xem lịch sử các đơn hàng đã tạo
 - Chat realtime với admin
+
+III.Hướng dẫn
+1. Download source code
+2. Trong cửa sổ terminal chạy lệnh npm install để cài các package cần thiết
+3. Thiết lập file env:
+   - REACT_APP_API_URL=https://nodejs-asm3-server.onrender.com
